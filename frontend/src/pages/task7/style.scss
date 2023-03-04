@@ -1,0 +1,76 @@
+.grid{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #e9eae83d;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+  
+    .header-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        h1{
+            font-size: 50px;
+            font-weight: 500;
+        }
+  
+        span{
+            font-size: 30px;
+            color: gray;
+        }
+    }
+  
+    .box{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        box-shadow: 3px 3px 8px rgb(92, 92, 92);
+        border-radius: 10px;
+        height: 120px;
+        display: flex;
+  
+        .img-area{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            img{
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+    
+        }
+  
+        .user-maindiv{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-left: 40px;
+            margin-right: 40px;
+  
+            .user-dtls{
+                text-align: left;
+                .date-time{
+                    color: gray;
+                    font-size: 25px;
+                }
+            }
+  
+            .amount-dtls{
+                text-align: right;
+  
+                .amount{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+  
+  }

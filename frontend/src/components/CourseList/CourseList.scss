@@ -1,0 +1,49 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+    strong {
+      color: darkgray;
+      font-size: large;
+      font-weight: 400;
+    }
+  
+    span {
+      padding: 8px 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .coursename {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        width: 50px;
+        height: 50px;
+      }
+  
+      .course-area {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        span {
+          font-size: larger;
+          height: 15px;
+          width: 200px;
+          display: flex;
+          justify-content: flex-start;
+        }
+        .lessons {
+          color: darkgray;
+          font-size: small;
+          font-weight: 600;
+          text-align: left;
+          width: 80px;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .home-container nav {
+    display: flex;
+    align-items: center;
+  }
+  .home-container nav .logo {
+    width: 20px;
+    height: 40px;
+    background-color: black;
+    border-radius: 0 120q 120q 0;
+  }
+  .home-container nav .search-icon {
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+  .home-container nav .icon {
+    font-size: 2.5rem;
+  }
+  .home-container header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .home-container header .badge {
+    background: blue;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 30px;
+  }
+  .home-container header h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+  .home-container .main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .home-container .main-card .card-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .home-container .main-card .card-header img {
+    width: 3em;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home-container .main-card .card-header .card-header-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .home-container .main-card .card-header .card-header-details h4 {
+    color: gray;
+    font-weight: 500;
+  }
+  .home-container .main-card .card-body {
+    display: grid;
+    grid-template-columns: 79% 20%;
+    height: 10rem;
+    gap: 1rem;
+  }
+  .home-container .main-card .card-body .left-part {
+    display: grid;
+    place-items: center;
+    background: url(https://raw.githubusercontent.com/Javad-ali/Responsive-home-screen/main/assets/card-background.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+  }
+  .home-container .main-card .card-body .left-part .play-btn {
+    padding: 0.5rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .home-container .main-card .card-body .right-part {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .home-container .main-card .card-body .right-part .top-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 248);
+    flex-grow: 2;
+    border-radius: 10px 10px 0 0;
+  }
+  .home-container .main-card .card-body .right-part .bottom-part {
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-grow: 1;
+    border-radius: 10px;
+  }
+  .home-container .main-card .main-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .home-container .main-card .main-buttons .btn {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  .home-container .main-card .main-buttons .btn:hover {
+    opacity: 0.8;
+  }
+  .home-container .main-card .main-buttons .signup-btn {
+    background-color: white;
+    border: 3px solid;
+  }
+  .home-container .main-card .main-buttons .explore-btn {
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+  }/*# sourceMappingURL=style.css.map */
